@@ -6,6 +6,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.auth.LoginFragment">
 
+
+
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="0dp"
@@ -17,6 +19,13 @@
         android:orientation="vertical"
         android:layout_marginHorizontal="25dp">
 
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Kauã Alexandre Bernardes"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+        />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -79,7 +88,7 @@
             android:textAlignment="textEnd"
             android:textColor="@color/white"/>
         </LinearLayout>
-        
+
         <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -89,6 +98,7 @@
             android:visibility="invisible"/>
 
     </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
