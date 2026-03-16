@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.kaua.task.R
 import com.kaua.task.databinding.FragmentRegisterBinding
+import com.kaua.task.util.initToolbar
 
 class RegisterFragment : Fragment() {
     private var _binding: FragmentRegisterBinding? = null
@@ -18,6 +19,13 @@ class RegisterFragment : Fragment() {
     ): View{
         _binding = FragmentRegisterBinding.inflate(inflater, container,false)
         return binding.root
+
+
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initToolbar(binding.toolbar)
     }
 
     override fun onDestroy() {
