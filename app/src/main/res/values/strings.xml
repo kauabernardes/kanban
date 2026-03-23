@@ -7,4 +7,16 @@
     <string name="status_task_doing">Fazendo</string>
     <string name="status_task_done">Feito</string>
 
+    <string name="password_empty">Preencha sua senha!</string>
+    <string name="email_empty">Preencha seu email!</string>
+
+    <string name="password_empty_register">Preencha uma senha.</string>
+    <string name="email_empty_register">Preencha um e-mail válido.</string>
+    
+    <string name="description_empty">Preencha uma descrição.</string>
+
+    <string name="text_title_warning">Atenção</string>
+    <string name="text_button_warning">Entendi</string>
+
+
 </resources>
